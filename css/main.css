@@ -350,14 +350,14 @@ h2~p {
 }
 .gallery-thumbs img:hover {
   opacity: 1;
-  width: 50%;
 }
 .gallery-thumbs .current img {
   box-shadow: 0 0 0 5px #ed6e2f;
   opacity: 1;
+  cursor: default;
 }
 .gallery-photo {
-  position: relative;
+/*  position: relative; */
 }
 .gallery-photo img {
   width: 100%;
