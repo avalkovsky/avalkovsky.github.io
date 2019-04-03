@@ -46,11 +46,15 @@ a img {
 /* GLOBAL STYLES */
 
 body {
-  font-family: helvetica, arial, sans;
+  font-family: 'Open Sans', helvetica, arial, sans;
   line-height: 1;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', helvetica, sans;
+	font-weight: 100;
 }
 .content-container {
 	display: flex;
@@ -589,7 +593,7 @@ h4 {
     width: 100%;
     text-align: center;
   }
-}
+
 /* HOME STYLES */
   .home-callout {
     flex-direction: column;
